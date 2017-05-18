@@ -1,0 +1,19 @@
+PoliTuit
+=========
+
+- **R1** definire degli utenti con un nickname oltre a nome e
+	cognome reali e un indirizzo email
+
+- **R2** un utente deve poter "postare un "tuit", ovvero un
+	messaggio di al più 140 caratteri, che verrà elencato
+	tra i "tuit" dell'utente.
+	(possiamo assumere che il sistema registri soltanto 
+	gli ultimi 10 "tuit" di ciascun utente)
+	
+- **R3** dato un utente deve essere possibile ottenere
+	l'elenco di tutti i suoi "tuit"
+
+- **R4** un "tuit" può menzionare altri utenti con il fomrato 
+	"@nickname" in questo caso il sistema deve registrare
+	per ciascun utente tutte le menzioni
+	
